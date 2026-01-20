@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/50/000000/cafe.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+    <title>Cafeteria | DevPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!--Header/Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contato</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero Section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">O melhor café da cidade</h3>
+                    <p class="description">Desfrute de uma experiência única com nossos cafés artesanais, feitos com
+                        paixão e dedicação para você.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Pedir Agora</a>
+                        <a href="#" class="button contact-us">Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="./images/coffee-hero-section.png" alt="Copo de café" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="./images/about-image.jpg" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Sobre <span>Nós</span></h2>
+                    <p class="text">No Coffee Time, acreditamos que o café é mais do que apenas uma bebida - é
+                        uma experiência. Desde a seleção dos grãos até a preparação final, cada etapa do nosso processo
+                        é
+                        cuidadosamente elaborada para garantir que você desfrute do melhor sabor e aroma em cada xícara.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu section-->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Nosso <span>Menu</span></h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="./images/hot-beverages.png" alt="Bebidas Quentes" class="menu-image">
+                        <h3 class="name">Bebidas Quentes</h3>
+                        <p class="text">Ampla variedade de cafés fumegantes para torná-lo fresco e leve.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/cold-beverages.png" alt="Bebidas Geladas" class="menu-image">
+                        <h3 class="name">Bebidas Geladas</h3>
+                        <p class="text">Uma seleção vibrante de preparos gelados para despertar seus sentidos e renovar
+                            suas energias.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/refreshment.png" alt="Bebidas Quentes" class="menu-image">
+                        <h3 class="name">Refrescantes</h3>
+                        <p class="text">Combinações geladas de frutas frescas batidas com gelo para trazer leveza e uma
+                            explosão de sabor ao seu dia.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/special-combo.png" alt="Bebidas Quentes" class="menu-image">
+                        <h3 class="name">Combos Especiais</h3>
+                        <p class="text">Seleção completa com os favoritos da casa, ideal para quem busca saciedade com o
+                            melhor custo-benefício e refrescância.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/desserts.png" alt="Bebidas Quentes" class="menu-image">
+                        <h3 class="name">Sobremesas</h3>
+                        <p class="text">Receitas exclusivas, unindo cremosidade e doçura na medida certa para fechar seu
+                            dia com chave de ouro.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/burger-frenchfries.png" alt="Bebidas Quentes" class="menu-image">
+                        <h3 class="name">Hamburguer e Batatas</h3>
+                        <p class="text">A união perfeita de hambúrgueres suculentos e batatas crocantes para tornar sua
+                            refeição completa e saborosa.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Testimonials section-->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Nossos <span>Clientes</span></h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-1.jpg" alt="client" class="user-image">
+                                <h3 class="name">Mariana Silva</h3>
+                                <p class="feedback">"O Iced Latte é, sem dúvida, o melhor da cidade! É difícil encontrar
+                                    um lugar que acerte tanto no equilíbrio do café com o gelo sem ficar aguado. O
+                                    ambiente é super leve e o atendimento é impecável. Virou meu refúgio oficial nos
+                                    dias de calor!"</p>
+                            </li>
+
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-2.jpg" alt="client" class="user-image">
+                                <h3 class="name">Ricardo Oliveira</h3>
+                                <p class="feedback">"Pedi o Combo Especial de hambúrguer com batata frita e me
+                                    surpreendi. A batata chegou crocante (o que é raro) e o burger estava suculento. A
+                                    bebida de frutas naturais que acompanha é muito refrescante e não é excessivamente
+                                    doce. Vale muito a pena!"</p>
+                            </li>
+
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-3.jpg" alt="client" class="user-image">
+                                <h3 class="name">Lucas Mendes</h3>
+                                <p class="feedback">"Minha parada obrigatória para o café da tarde. As sobremesas são
+                                    divinas — a torta de limão é super leve e fresquinha. É o lugar perfeito para levar
+                                    um livro e relaxar enquanto aproveito um café fumegante. Nota 10!"</p>
+                            </li>
+
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-4.jpg" alt="client" class="user-image">
+                                <h3 class="name">Juliana Costa</h3>
+                                <p class="feedback">"Sou fã das bebidas refrescantes com frutas! Dá para sentir que usam
+                                    ingredientes de verdade e não apenas xaropes artificiais. O Smoothie Tropical é
+                                    surreal de bom. Ótimo custo-benefício e tudo muito caprichado."</p>
+                            </li>
+
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-5.jpg" alt="client" class="user-image">
+                                <h3 class="name">Allan Santos</h3>
+                                <p class="feedback">"O que mais gosto é a variedade. Às vezes quero algo bem 'comfort
+                                    food' como o chocolate quente, outras vezes quero apenas um refresco gelado. O menu
+                                    atende todos os meus momentos. Recomendo de olhos fechados!"</p>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery section-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Nossos <span>Pratos</span></h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Fale <span>Conosco</span></h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Av. Tancredo Neves, 136 - Graciliano Ramos</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>cafeteria@email.com</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(11) 99999-9999</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Terça a Sábado: 10h às 22h</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Domingo: 10h às 20h</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.cafeteria.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Digite seu nome" class="form-input" required>
+                    <input type="email" placeholder="Digite seu email" class="form-input" required>
+                    <textarea class="form-input" placeholder="Digite sua mensagem" required></textarea>
+                    <button class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2024 Cafeteria.</p>
+
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">Todos os direitos reservados.</p>
+
+            </div>
+        </footer>
+    </main>
+
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="script.js"></script>
+</body>
+
+</html>
